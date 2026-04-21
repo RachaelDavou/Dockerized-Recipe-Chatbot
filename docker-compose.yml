@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  recipe-chatbot:
+    build: .
+    container_name: recipe-ai
+    ports:
+      - "8501:8501"
